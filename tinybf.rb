@@ -2,7 +2,7 @@
 
 # = tinybf.rb - 417-byte Brainfuck interpreter in Ruby
 #
-# URL::       http://agorf.void.gr/code/b7k.rb
+# URL::       http://agorf.void.gr/code/tinybf.rb
 # Author::    Aggelos Orfanakos (http://agorf.void.gr)
 # Copyright:: 2006, Aggelos Orfanakos. All rights reserved.
 # License::   MIT[http://agorf.void.gr/code/LICENSE]
