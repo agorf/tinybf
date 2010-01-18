@@ -10,7 +10,7 @@ class TestTinyBF < Test::Unit::TestCase
   FILES.each {|fn|
     method_name = 'test_' + fn.sub(/\.b$/, '')
     expected = File.read(fn.sub(/\.b$/, '.out'))
-    actual = IO.popen('ruby tinybf.rb', 'r+') {|f|
+    actual = open('|ruby tinybf.rb', 'r+') {|f|
       f.write(File.read(fn))
       f.close_write
       f.read
