@@ -11,7 +11,7 @@ Some of the features/design decisions:
 - Wraps cell values if they exceed the minimum/maximum allowed.
 - Ignores a `<` command if the array pointer is on the left-most cell.
 - Passes [Daniel Cristofani][cristofd]'s [tests][] and follows his [Epistle to the Implementors][epistle] closely.
-- Weighs only 388 bytes!
+- Weighs only 382 bytes!
 
 [cristofd]: http://www.hevanet.com/cristofd/
 [tests]: http://www.hevanet.com/cristofd/brainfuck/tests.b
