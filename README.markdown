@@ -1,6 +1,6 @@
 # tinybf #
 
-A tiny interpreter for the [Brainfuck][] programming language.
+A minuscule interpreter for the [Brainfuck][] programming language, written in Ruby.
 
 [Brainfuck]: http://en.wikipedia.org/wiki/Brainfuck
 
