@@ -6,7 +6,7 @@
 # j ump
 # s tack
 
-c,i=STDIN.read.split'!',2
+c,i=$<.read.split'!',2
 (c||='').scan(/[-+<>\[\],.]/)*''
 i||=[]
 *a=b=h=z=0
