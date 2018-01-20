@@ -1,11 +1,3 @@
-#!/usr/bin/env ruby
-
-# c ode  (b pointer)
-# i nput (h pointer)
-# a rray (z pointer)
-# j ump
-# s tack
-
 c,i=$<.read.split'!',2
 i||=[]
 *a=b=h=z=0
