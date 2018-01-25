@@ -11,10 +11,8 @@ j[j[n]]=n
 end}
 while c[b]
 case c[b]
-when ?+
-a[z]=(a[z]+1)%256
-when ?-
-a[z]=(a[z]-1)%256
+when ?+,?-
+a[z]=(a[z]+44-c[b].ord)%256
 when ?,
 i[h]&&(a[z]=i[h].ord;h+=1)
 when ?.
