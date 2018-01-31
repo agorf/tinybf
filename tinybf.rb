@@ -6,8 +6,7 @@ c.size.times{|n|case c[n]
 when ?[
 s<<n
 when ?]
-j[n]=s.pop
-j[j[n]]=n
+j[j[n]=s.pop]=n
 end}
 while c[b]
 case c[b]

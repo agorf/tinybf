@@ -15,7 +15,7 @@ Ruby.
 - Ignores a `<` command if the array pointer is on the left-most cell.
 - Passes [Daniel Cristofani][cristofd]'s [tests][] and follows his [Epistle to
   the Implementors][epistle].
-- Weighs only 337 bytes!
+- Weighs only 332 bytes!
 
 [cristofd]: http://www.hevanet.com/cristofd/
 [tests]: https://github.com/agorf/tinybf/tree/master/test
