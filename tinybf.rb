@@ -8,10 +8,10 @@ s<<n
 when ?]
 j[j[n]=s.pop]=n
 end}
-while c[b]
-case c[b]
+while d=c[b]
+case d
 when ?+,?-
-a[z]=(a[z]+44-c[b].ord)%256
+a[z]=(a[z]+44-d.ord)%256
 when ?,
 i[h]&&(a[z]=i[h].ord;h+=1)
 when ?.
